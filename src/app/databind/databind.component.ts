@@ -9,4 +9,8 @@ export class DatabindComponent {
 
   name="Ramesh";
   collegename="KL   University";
+
+  abc(){
+    alert("Hi You clciked the button")
+  }
 }
