@@ -2,4 +2,7 @@
      <mark>{{collegename}} </mark>Hyderabad, 
 </h4>
 <hr> 
-Name : <input type="text"><input type="submit" value="SEND" (click)="abc()">
+Name : 
+
+<input type="text" #myname>
+<input type="submit" value="SEND" (click)="abc(myname.value)">
