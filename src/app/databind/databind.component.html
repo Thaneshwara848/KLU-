@@ -9,3 +9,11 @@ TIME  : <input type="text" #t><br>
 TOTAL : <input type="text" value={{total}} ><br>
 EMI  : <input type="text" value={{emi}} ><br>
 <input type="submit" value="SEND" (click)="abc(p.value,r.value,t.value)">
+
+<hr> 
+
+FIRST NAME :  <input type="text" #fn>
+LAST NAME : <input type="text" #ln>
+FULL NAME : <input type="text" value={{fname}}>
+
+<input type="submit" (click)="fullname(fn.value,ln.value)" >

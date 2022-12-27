@@ -10,6 +10,7 @@ import { GalaryComponent } from './galary/galary.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
 import { DatabindComponent } from './databind/databind.component';
 import { DemocheckComponent } from './democheck/democheck.component';
+import { DirectiveComponent } from './directive/directive.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DemocheckComponent } from './democheck/democheck.component';
     GalaryComponent,
     ErrorpageComponent,
     DatabindComponent,
-    DemocheckComponent
+    DemocheckComponent,
+    DirectiveComponent
   ],
   imports: [
     BrowserModule,

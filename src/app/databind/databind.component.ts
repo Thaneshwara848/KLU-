@@ -17,4 +17,10 @@ emi=0;
 
    this.emi=this.total/12;
   }
+
+  fname="";
+  fullname(fn:string,ln:string){
+
+   this.fname= fn + ln 
+  }
 }
