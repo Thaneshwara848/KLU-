@@ -1,3 +1,41 @@
 <div style="text-align: center;">
-    <h1> Reactiv e From</h1>
+  
+       
+           <form [formGroup]="student">
+                    
+                    NAME : <input type="text" formControlName="username"> <br>
+                     COLLEGE :<input type="text" formControlName="college"><br>
+                    AGE :<input type="text" formControlName="age"><br><br>
+
+
+                    <input type="submit" value="LOGIN" [disabled]="student.invalid">
+                    <input type="reset" value="RESTE">
+
+           </form>
+        
+
 </div>
+
+
+<!-- 
+Name : 
+    len : 
+        min 3 
+        max : 10 
+        No Num 
+        no Speacl char 
+
+        it must be only char 
+
+College : 
+    must be some name 
+
+Age: 
+    min 
+        18 
+    max : 
+        30 
+    Must have to ENter  -->
+
+
+
