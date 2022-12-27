@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { GalaryComponent } from './galary/galary.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
 import { DatabindComponent } from './databind/databind.component';
+import { DemocheckComponent } from './democheck/democheck.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DatabindComponent } from './databind/databind.component';
     HomeComponent,
     GalaryComponent,
     ErrorpageComponent,
-    DatabindComponent
+    DatabindComponent,
+    DemocheckComponent
   ],
   imports: [
     BrowserModule,
