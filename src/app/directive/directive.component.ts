@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class DirectiveComponent {
 
+  arr=[1,2,3,4,5,6];
+
+  fruit=["Apple","Banana","Cherrry"]
+
+addfruit(fruit:any)
+{
+this.fruit.push(fruit)
+}
 }
