@@ -1,1 +1,18 @@
-<h1> Froms Demo </h1>
+<div style="text-align: center;">
+    <h1> Froms Demo </h1>
+
+    <div class="form-inline">
+        <label>USER NAME :</label> 
+        <input  type="text" class="form-control" required name="username" ngModel #username="ngModel"> <br>
+       <span *ngIf="username.invalid && username.touched" class="text-danger">Name must be requried ...!</span>
+
+   <div class="form-inline">
+        <label>  PASSWORD :</label> 
+        <input type="text" class="form-control"  required name="password" ngModel #password="ngModel"> <br>
+        <span *ngIf="password.invalid &&  username.touched"  class="text-danger">password must be requried ...!</span>
+   </div>
+    <input type="submit" value="LOGIN " class="btn btn-success">  
+     <input type="reset" value="RESET"class="btn btn-danger"> 
+
+
+</div>
