@@ -12,7 +12,8 @@ import { DatabindComponent } from './databind/databind.component';
 import { DemocheckComponent } from './democheck/democheck.component';
 import { DirectiveComponent } from './directive/directive.component';
 import { FormsComponent } from './forms/forms.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms'; // <== add the imports!
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ReactivefromComponent } from './reactivefrom/reactivefrom.component'; // <== add the imports!
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms'; // <== add th
     DatabindComponent,
     DemocheckComponent,
     DirectiveComponent,
-    FormsComponent
+    FormsComponent,
+    ReactivefromComponent
   ],
   imports: [
     BrowserModule,

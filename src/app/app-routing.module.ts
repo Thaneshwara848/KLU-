@@ -7,9 +7,13 @@ import { FormsComponent } from './forms/forms.component';
 import { GalaryComponent } from './galary/galary.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { ReactivefromComponent } from './reactivefrom/reactivefrom.component';
 import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
+  {
+    path:'rec',component:ReactivefromComponent
+  },
   {
     path:'form',component:FormsComponent
   },
