@@ -1,12 +1,12 @@
-<h1>Hi Directive </h1> 
 
-<ul *ngFor="let num of arr">
-        <li>{{num}}</li>
-</ul>
+<h3>
+    fruit :
+    <input type="text" #friut>
+    <input type="submit" value="ADD Fruit " (click)="addfriut(friut.value)">
 
-<hr> 
-Fruit :<input type="text" #friuts><input type="submit" (click)="addfruit(friuts.value)">
 
-<ul *ngFor="let fru of fruit">
-    <li>{{fru}}</li>
-</ul>
+        <ul *ngFor="let fruit of xyz">
+                <li >{{fruit}}</li>
+                <!-- <li *ngIf="fruit=='Banana'">{{fruit}}</li> -->
+        </ul>
+</h3>
