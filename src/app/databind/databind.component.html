@@ -2,7 +2,10 @@
      <mark>{{collegename}} </mark>Hyderabad, 
 </h4>
 <hr> 
-Name : 
 
-<input type="text" #myname>
-<input type="submit" value="SEND" (click)="abc(myname.value)">
+priciple : <input type="text" #p><br>
+ROI  : <input type="text" #r><br>
+TIME  : <input type="text" #t><br>
+TOTAL : <input type="text" value={{total}} ><br>
+EMI  : <input type="text" value={{emi}} ><br>
+<input type="submit" value="SEND" (click)="abc(p.value,r.value,t.value)">
