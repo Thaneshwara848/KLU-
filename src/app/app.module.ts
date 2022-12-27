@@ -11,6 +11,7 @@ import { ErrorpageComponent } from './errorpage/errorpage.component';
 import { DatabindComponent } from './databind/databind.component';
 import { DemocheckComponent } from './democheck/democheck.component';
 import { DirectiveComponent } from './directive/directive.component';
+import { FormsComponent } from './forms/forms.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DirectiveComponent } from './directive/directive.component';
     ErrorpageComponent,
     DatabindComponent,
     DemocheckComponent,
-    DirectiveComponent
+    DirectiveComponent,
+    FormsComponent
   ],
   imports: [
     BrowserModule,
