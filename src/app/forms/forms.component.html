@@ -2,12 +2,12 @@
     <h1> Froms Demo </h1>
 
     <div class="form-inline">
-        <label>USER NAME :</label> 
+        <label>USER NAME <span style="color: red;" *ngIf="username.invalid">*</span> :  </label> 
         <input  type="text" class="form-control" required name="username" ngModel #username="ngModel"> <br>
        <span *ngIf="username.invalid && username.touched" class="text-danger">Name must be requried ...!</span>
 
    <div class="form-inline">
-        <label>  PASSWORD :</label> 
+        <label>  PASSWORD  <span style="color: red;" *ngIf="password.invalid">*</span> : </label> 
         <input type="text" class="form-control"  required name="password" ngModel #password="ngModel"> <br>
         <span *ngIf="password.invalid &&  username.touched"  class="text-danger">password must be requried ...!</span>
    </div>
