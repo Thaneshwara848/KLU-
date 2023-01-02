@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DatabindComponent } from './databind/databind.component';
+import { DbempsComponent } from './dbemps/dbemps.component';
 import { DirectiveComponent } from './directive/directive.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
@@ -13,6 +14,10 @@ import { RegisterComponent } from './register/register.component';
 import { ServiceDemoComponent } from './service-demo/service-demo.component';
 
 const routes: Routes = [
+  {
+    path:'backend',
+    component:DbempsComponent
+  },
   {
     path:'emp',
     component:EmployeeComponent
