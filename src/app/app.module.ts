@@ -17,7 +17,8 @@ import { ReactivefromComponent } from './reactivefrom/reactivefrom.component';
 import { ServiceDemoComponent } from './service-demo/service-demo.component';
 import { A1Component } from './a1/a1.component';
 import { A2Component } from './a2/a2.component';
-import { A3Component } from './a3/a3.component'; // <== add the imports!
+import { A3Component } from './a3/a3.component';
+import { EmployeeComponent } from './employee/employee.component'; // <== add the imports!
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { A3Component } from './a3/a3.component'; // <== add the imports!
     ServiceDemoComponent,
     A1Component,
     A2Component,
-    A3Component
+    A3Component,
+    EmployeeComponent
   ],
   imports: [
     BrowserModule,

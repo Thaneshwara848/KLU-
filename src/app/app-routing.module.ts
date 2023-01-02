@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DatabindComponent } from './databind/databind.component';
 import { DirectiveComponent } from './directive/directive.component';
+import { EmployeeComponent } from './employee/employee.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
 import { FormsComponent } from './forms/forms.component';
 import { GalaryComponent } from './galary/galary.component';
@@ -12,6 +13,10 @@ import { RegisterComponent } from './register/register.component';
 import { ServiceDemoComponent } from './service-demo/service-demo.component';
 
 const routes: Routes = [
+  {
+    path:'emp',
+    component:EmployeeComponent
+  },
   {
     path:'serv',
     component:ServiceDemoComponent

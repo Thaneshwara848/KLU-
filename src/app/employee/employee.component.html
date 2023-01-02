@@ -1,0 +1,25 @@
+<p>employee works!</p>
+<input type="submit" (click)="getEmp()">
+
+<hr>
+<!-- <ul *ngFor="let emp of mydata"> 
+    {{emp.ID}}-- {{emp.name}}
+</ul> -->
+<h3>  
+<table class="table table-bordered">
+    <tr>
+        <th>ID </th>
+        <th>NAME </th>
+        <th>AGE </th>
+        <th>SALARY</th>
+        <th>DESIG</th>
+    </tr>
+    <tr *ngFor="let emp of mydata">
+        <td>{{emp.ID}}</td>
+        <td>{{emp.name}}</td>
+        <td>{{emp.age}}</td>
+        <td>{{emp.salary}}</td>
+        <td>{{emp.desig}}</td>
+    </tr>
+</table>
+</h3>
